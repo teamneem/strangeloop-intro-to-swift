@@ -20,6 +20,8 @@ class BoggleViewController: UIViewController, BoggleViewProtocol {
         boggleView?.setObserver(self)
         
         boggleModel = BoggleModel()
+        
+        resetButtonPressed()
     }
     
     func resetButtonPressed() {
