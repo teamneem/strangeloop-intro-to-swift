@@ -26,4 +26,8 @@ class BoggleView: UIView {
     @IBAction func resetTapped(sender: AnyObject) {
         self.observer?.resetButtonPressed()
     }
+    
+    func setButtonTitle(title: String) {
+        self.boggleButton.setTitle(title, forState: UIControlState.Normal) 
+    }
 }
