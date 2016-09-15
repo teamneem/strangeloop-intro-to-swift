@@ -12,11 +12,14 @@ import UIKit
 class BoggleViewController: UIViewController, BoggleViewProtocol {
     
     var boggleView: BoggleView?
+    var boggleModel: BoggleModel?
     
     override func viewDidLoad() {
         super.viewDidLoad()
         boggleView = view as? BoggleView
         boggleView?.setObserver(self)
+        
+        boggleModel = BoggleModel()
     }
     
     func resetButtonPressed() {
