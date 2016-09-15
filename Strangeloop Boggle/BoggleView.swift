@@ -9,10 +9,19 @@
 import Foundation
 import UIKit
 
+protocol BoggleViewProtocol: class {
+    func resetButtonPressed()
+}
+
 class BoggleView: UIView {
+    private weak var observer: BoggleViewProtocol?
+    
     @IBOutlet weak var boggleButton: UIButton!
     @IBOutlet weak var resetButton: UIButton!
     
+    func setObserver(observer: BoggleViewProtocol) {
+        self.observer = observer
+    }
     
     @IBAction func resetTapped(sender: AnyObject) {
         print("Hi")
