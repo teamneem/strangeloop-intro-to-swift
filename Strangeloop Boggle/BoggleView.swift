@@ -16,6 +16,7 @@ protocol BoggleViewProtocol: class {
 class BoggleView: UIView {
     private weak var observer: BoggleViewProtocol?
     
+    @IBOutlet var buttons: [UIButton]!
     @IBOutlet weak var boggleButton: UIButton!
     @IBOutlet weak var resetButton: UIButton!
     

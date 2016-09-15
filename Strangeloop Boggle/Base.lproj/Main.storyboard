@@ -205,6 +205,22 @@
                         <connections>
                             <outlet property="boggleButton" destination="ZfD-zp-rFR" id="QZ6-zb-Exs"/>
                             <outlet property="resetButton" destination="9Oh-ip-3CN" id="18E-yy-AXN"/>
+                            <outletCollection property="buttons" destination="ZfD-zp-rFR" collectionClass="NSMutableArray" id="9JR-w0-0CG"/>
+                            <outletCollection property="buttons" destination="WcN-9j-BCj" collectionClass="NSMutableArray" id="G6z-eg-KP0"/>
+                            <outletCollection property="buttons" destination="hDg-hd-xgg" collectionClass="NSMutableArray" id="naZ-bA-hhb"/>
+                            <outletCollection property="buttons" destination="Hbo-px-6dl" collectionClass="NSMutableArray" id="hSf-vs-m3W"/>
+                            <outletCollection property="buttons" destination="s5v-Yr-bYs" collectionClass="NSMutableArray" id="kgB-Dk-kxt"/>
+                            <outletCollection property="buttons" destination="M8f-NF-fIo" collectionClass="NSMutableArray" id="mXW-87-6yO"/>
+                            <outletCollection property="buttons" destination="9mv-Iw-ELT" collectionClass="NSMutableArray" id="H5A-tH-bhl"/>
+                            <outletCollection property="buttons" destination="kHr-Q3-EsZ" collectionClass="NSMutableArray" id="GVw-eG-cgw"/>
+                            <outletCollection property="buttons" destination="b9v-Km-xRc" collectionClass="NSMutableArray" id="qG8-1F-1vc"/>
+                            <outletCollection property="buttons" destination="AAf-nO-Nyk" collectionClass="NSMutableArray" id="JdQ-tB-NSS"/>
+                            <outletCollection property="buttons" destination="O5m-Y3-Pef" collectionClass="NSMutableArray" id="Jka-o6-uU4"/>
+                            <outletCollection property="buttons" destination="LnM-8X-Xmc" collectionClass="NSMutableArray" id="DVf-uQ-3zp"/>
+                            <outletCollection property="buttons" destination="Ioq-Zu-Dcc" collectionClass="NSMutableArray" id="Uod-XD-b9M"/>
+                            <outletCollection property="buttons" destination="u1i-t7-EZ2" collectionClass="NSMutableArray" id="qEm-Y3-eI6"/>
+                            <outletCollection property="buttons" destination="1pf-mn-oB6" collectionClass="NSMutableArray" id="vqy-HL-Ih3"/>
+                            <outletCollection property="buttons" destination="rj6-pZ-Gfy" collectionClass="NSMutableArray" id="297-gZ-Rde"/>
                         </connections>
                     </view>
                 </viewController>
