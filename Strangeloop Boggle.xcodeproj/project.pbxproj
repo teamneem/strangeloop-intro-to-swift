@@ -12,6 +12,9 @@
 		9BDF653A1D8A432900727F6E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BDF65381D8A432900727F6E /* Main.storyboard */; };
 		9BDF653C1D8A432900727F6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BDF653B1D8A432900727F6E /* Assets.xcassets */; };
 		9BDF653F1D8A432900727F6E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BDF653D1D8A432900727F6E /* LaunchScreen.storyboard */; };
+		9BDF65471D8A435C00727F6E /* BoggleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDF65461D8A435C00727F6E /* BoggleView.swift */; };
+		9BDF65491D8A436600727F6E /* BoggleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDF65481D8A436600727F6E /* BoggleViewController.swift */; };
+		9BDF654B1D8A436E00727F6E /* BoggleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDF654A1D8A436E00727F6E /* BoggleModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		9BDF653B1D8A432900727F6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9BDF653E1D8A432900727F6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9BDF65401D8A432900727F6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BDF65461D8A435C00727F6E /* BoggleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoggleView.swift; sourceTree = "<group>"; };
+		9BDF65481D8A436600727F6E /* BoggleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoggleViewController.swift; sourceTree = "<group>"; };
+		9BDF654A1D8A436E00727F6E /* BoggleModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoggleModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,9 @@
 			children = (
 				9BDF65341D8A432900727F6E /* AppDelegate.swift */,
 				9BDF65361D8A432900727F6E /* ViewController.swift */,
+				9BDF65461D8A435C00727F6E /* BoggleView.swift */,
+				9BDF65481D8A436600727F6E /* BoggleViewController.swift */,
+				9BDF654A1D8A436E00727F6E /* BoggleModel.swift */,
 				9BDF65381D8A432900727F6E /* Main.storyboard */,
 				9BDF653B1D8A432900727F6E /* Assets.xcassets */,
 				9BDF653D1D8A432900727F6E /* LaunchScreen.storyboard */,
@@ -136,8 +145,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BDF65491D8A436600727F6E /* BoggleViewController.swift in Sources */,
+				9BDF654B1D8A436E00727F6E /* BoggleModel.swift in Sources */,
 				9BDF65371D8A432900727F6E /* ViewController.swift in Sources */,
 				9BDF65351D8A432900727F6E /* AppDelegate.swift in Sources */,
+				9BDF65471D8A435C00727F6E /* BoggleView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
