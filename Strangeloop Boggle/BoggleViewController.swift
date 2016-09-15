@@ -23,6 +23,6 @@ class BoggleViewController: UIViewController, BoggleViewProtocol {
     }
     
     func resetButtonPressed() {
-        print("Cupcake")
+        let buttonTitle = boggleModel?.randomLetter()
     }
 }
