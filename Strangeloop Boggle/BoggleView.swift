@@ -12,4 +12,9 @@ import UIKit
 class BoggleView: UIView {
     @IBOutlet weak var boggleButton: UIButton!
     @IBOutlet weak var resetButton: UIButton!
+    
+    
+    @IBAction func resetTapped(sender: AnyObject) {
+        print("Hi")
+    }
 }
