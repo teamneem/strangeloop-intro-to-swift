@@ -24,6 +24,6 @@ class BoggleView: UIView {
     }
     
     @IBAction func resetTapped(sender: AnyObject) {
-        print("Hi")
+        self.observer?.resetButtonPressed()
     }
 }
