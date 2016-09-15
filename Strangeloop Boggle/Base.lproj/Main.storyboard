@@ -59,6 +59,10 @@
                                 <exclude reference="Fhf-Jd-KMi"/>
                             </mask>
                         </variation>
+                        <connections>
+                            <outlet property="boggleButton" destination="ZfD-zp-rFR" id="QZ6-zb-Exs"/>
+                            <outlet property="resetButton" destination="9Oh-ip-3CN" id="18E-yy-AXN"/>
+                        </connections>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
