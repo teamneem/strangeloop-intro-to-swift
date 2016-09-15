@@ -25,7 +25,9 @@ class BoggleViewController: UIViewController, BoggleViewProtocol {
     }
     
     func resetButtonPressed() {
-        let buttonTitle = boggleModel?.randomLetter()
-        boggleView?.setButtonTitle(buttonTitle!)
+        let numberOfButtons = self.boggleView?.buttons.count
+        
+        let titleArray = self.boggleModel!.buttonTextArray(numberOfButtons!)
+        self.boggleView?.setButtonTitles(titleArray)
     }
 }

@@ -28,7 +28,12 @@ class BoggleView: UIView {
         self.observer?.resetButtonPressed()
     }
     
-    func setButtonTitle(title: String) {
-        self.boggleButton.setTitle(title, forState: UIControlState.Normal) 
+    func setButtonTitles(buttonTitles: Array<String>) {
+        var int = 0
+        for button in buttons {
+            button.setTitle(buttonTitles[int], forState: UIControlState.Normal)
+            int += 1
+        }
+        
     }
 }
